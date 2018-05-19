@@ -1,0 +1,414 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"_",
+				"_MISSING_REQUIRED_KEY"
+			],
+			[
+				"is",
+				"is_type_valid〔function〕"
+			],
+			[
+				"ex",
+				"execute〔variable〕"
+			],
+			[
+				"split",
+				"split_cmd"
+			],
+			[
+				"sh",
+				"shlex〔module〕"
+			],
+			[
+				"P",
+				"Popen〔class〕"
+			],
+			[
+				"krunne",
+				"krunner_settings"
+			],
+			[
+				"valida",
+				"validation〔variable〕"
+			],
+			[
+				"krunn",
+				"krunner_settings〔variable〕"
+			],
+			[
+				"lang",
+				"lang_item"
+			],
+			[
+				"module",
+				"modulename"
+			],
+			[
+				"lang_",
+				"lang_loader"
+			],
+			[
+				"cla",
+				"class_name〔variable〕"
+			],
+			[
+				"la",
+				"lang_item〔variable〕"
+			],
+			[
+				"is_",
+				"is_type_valid"
+			],
+			[
+				"__",
+				"__doc__〔variable〕"
+			],
+			[
+				"main_fil",
+				"main_file_ext〔variable〕"
+			],
+			[
+				"Vu",
+				"VueRouter"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "import youtube_dl\n\nydl = youtube_dl.YoutubeDL({'outtmpl': '%(id)s%(ext)s'})\n\nwith ydl:\n    result = ydl.extract_info(\n        'http://www.youtube.com/watch?v=BaW_jenozKc',\n        download=False\n    )\n\nif 'entries' in result:\n    # Can be a playlist or a list of videos\n    video = result['entries'][0]\nelse:\n    # Just a video\n    video = result\n\nfor item in video[\"formats\"]:\n    if(item[\"ext\"] == 'm4a'):\n        print(item)\n\n\n",
+			"file": "main.py",
+			"file_size": 428,
+			"file_write_time": 131710979981998347,
+			"settings":
+			{
+				"buffer_size": 430,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "conf.sublime-project",
+			"settings":
+			{
+				"buffer_size": 199,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 208.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			]
+		],
+		"width": 461.0
+	},
+	"console":
+	{
+		"height": 190.0,
+		"history":
+		[
+			"window.run_command(\"krunner\")",
+			"__init__.py",
+			"window.run_command(\"krunner\")"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/kershing/documents/projects/python/scripts/auscript"
+	],
+	"file_history":
+	[
+		"/home/kershing/documents/projects/python/scripts/auscript/conf.sublime-project",
+		"/home/kershing/documents/projects/python/scripts/auscript/main.py",
+		"/home/kershing/.config/sublime-text-3/Packages/krunner/Default (Linux).sublime-keymap",
+		"/home/kershing/documents/projects/python/tests/krunner/main.py",
+		"/home/kershing/.config/sublime-text-3/Packages/krunner/langs/python.py",
+		"/home/kershing/documents/projects/python/tests/krunner/.settings.sublime-project",
+		"/home/kershing/.config/sublime-text-3/Packages/krunner/Default.sublime-commands",
+		"/home/kershing/.bashrc",
+		"/home/kershing/.config/sublime-text-3/Packages/krunner/utils/shell.py",
+		"/home/kershing/.config/sublime-text-3/Packages/krunner/langs/lang_loader.py",
+		"/home/kershing/.config/sublime-text-3/Packages/krunner/validates/validate.py",
+		"/home/kershing/.config/sublime-text-3/Packages/krunner/main.py",
+		"/home/kershing/documents/projects/python/tests/single-files/indice.py",
+		"/home/kershing/.cache/.fr-5HArCd/Package Reloader.py",
+		"/home/kershing/.config/sublime-text-3/Packages/krunner/.build",
+		"/home/kershing/.config/sublime-text-3/Packages/krunner/validate.py",
+		"/home/kershing/.config/sublime-text-3/Packages/krunner/python.py",
+		"/home/kershing/.config/sublime-text-3/Packages/krunner/validates/__init__.py",
+		"/home/kershing/.config/sublime-text-3/Packages/krunner/__init__.py",
+		"/home/kershing/.config/sublime-text-3/Packages/krunner/langs/__init__.py",
+		"/home/kershing/documents/projects/python/tests/krunner/settings.sublime-project",
+		"/home/kershing/.config/sublime-text-3/Packages/krunner/lang_loader.py",
+		"/home/kershing/documents/projects/python/tests/krunner/module_loader.py",
+		"/home/kershing/.config/sublime-text-3/Packages/User/krunner/main.py",
+		"/home/kershing/Documentos/projects/vue/test1/src/main.js",
+		"/home/kershing/Documentos/projects/vue/test1/public/index.html",
+		"/home/kershing/Documentos/projects/vue/test1/src/App.vue",
+		"/home/kershing/.config/user-dirs.dirs",
+		"/home/kershing/.config/user-dirs.locale",
+		"/home/kershing/Documentos/projects/vue/test1/src/components/Home.vue",
+		"/home/kershing/Documentos/unah/ambiental/Surgimiento del Homo Sapiens",
+		"/home/kershing/Documentos/python/tests/gif/test.py",
+		"/home/kershing/test.json",
+		"/home/kershing/test.py",
+		"/home/kershing/Documentos/unah/español/El discurso literario",
+		"/home/kershing/Documentos/java/BokHandel/reports/base/base-bills.html",
+		"/opt/bootstrap/custom/style.sass",
+		"/home/kershing/Documentos/python/tests/single-files/indice.py",
+		"/home/kershing/Documentos/java/BokHandel/reports/base/base-author.html",
+		"/home/kershing/Documentos/java/BokHandel/reports/books/2018-05-09.bkp",
+		"/home/kershing/Documentos/java/BokHandel/reports/bills/2018-05-09.bkp",
+		"/home/kershing/Documentos/java/BokHandel/reports/base/base-books.html",
+		"/home/kershing/Documentos/java/BokHandel/reports/bills/2018-05-08.html",
+		"/home/kershing/Documentos/java/BokHandel/reports/base/base.html",
+		"/home/kershing/Documentos/java/BokHandel/Reportes\\Rpt Clientes2018-05-07.csv",
+		"/home/kershing/Documentos/java/BokHandel/Reportes\\Rpt Authors2018-05-07.csv",
+		"/home/kershing/Documentos/python/web/fakefacebook/csfrs",
+		"/home/kershing/Documentos/java/BokHandel/Reportes\\Rpt Bills2018-05-07.csv",
+		"/home/kershing/Documentos/java/BokHandel/reports/reportes",
+		"/home/kershing/Documentos/java/BokHandel/reports/generador.py",
+		"/home/kershing/Documentos/unah/Hoy en día los medios de comunicación constituyen",
+		"/home/kershing/Documentos/python/web/fakefacebook/main/views.py",
+		"/home/kershing/Documentos/python/web/fakefacebook/fakefacebook/urls.py",
+		"/home/kershing/Documentos/python/web/fakefacebook/fakefacebook/settings.py",
+		"/home/kershing/Documentos/python/web/fakefacebook/main/templates/main/index.html",
+		"/home/kershing/Documentos/python/web/fakefacebook/main/forms.py",
+		"/home/kershing/Documentos/python/web/fakefacebook/main/templates/main/base.html",
+		"/home/kershing/Documentos/python/web/fakefacebook/fakefacebook/views.py",
+		"/home/kershing/Documentos/java/BokHandel/docs/classes_scheme.txt",
+		"/home/kershing/Documentos/unah/español/tema 3",
+		"/home/kershing/Documentos/java/BokHandel/src/forms/FrmLogin.java",
+		"/home/kershing/Documentos/cpp/ejemplo.cpp",
+		"/home/kershing/Documentos/java/BokHandel/src/core/DBManager.java",
+		"/home/kershing/Documentos/cpp/ccolor.h",
+		"/home/kershing/Documentos/java/BokHandel/src/forms/FrmUsers.java",
+		"/home/kershing/Descargas/Tarea/src/tarea/cPrimo.java",
+		"/home/kershing/Descargas/megasync-x86_64.pkg/.INSTALL"
+	],
+	"find":
+	{
+		"height": 33.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"\""
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "main.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 430,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								429,
+								429
+							]
+						],
+						"settings":
+						{
+							"SL.18.region_keys":
+							[
+								"SL.pycodestyle.Highlights.|b48b4af59768f8587aca01a1dcfd8eb43e5bea6b7a7ccf50355445d446b8e5d7|region.yellowish markup.warning.sublime_linter|32",
+								"SL.pycodestyle.Gutter.|region.yellowish markup.warning.sublime_linter|dot",
+								"sublime_linter.protected_regions"
+							],
+							"auto_complete": false,
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage",
+							"tab_size": 4
+						},
+						"translation.x": 0.0,
+						"translation.y": 114.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "conf.sublime-project",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 199,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								198,
+								198
+							]
+						],
+						"settings":
+						{
+							"auto_complete": true,
+							"syntax": "Packages/zzz A File Icon zzz/aliases/JSON (Sublime).sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 33.0
+	},
+	"input":
+	{
+		"height": 49.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "conf.sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 202.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

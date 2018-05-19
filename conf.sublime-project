@@ -1,0 +1,14 @@
+{
+	"folders":
+	[
+		{
+			"path": "."
+		}
+	],
+  "krunner": {
+    "lang": "python",
+    "main": "main.py",
+    "shell": "deepin-terminal",
+    "virtualenv": "/home/kershing/.virtualenvs/glib/bin"
+  }
+}
