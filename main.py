@@ -33,4 +33,8 @@ with open('urls', 'r') as urls:
                 if item["ext"] in ['m4a', 'mp3', 'acc']:
                     audio_url = item['url']
                     ext = item['ext']
+
+                    if os.path.isfile(os.path.join(path, title)):
+                        break
+
                     download_audio(path, audio_url, ext, title)

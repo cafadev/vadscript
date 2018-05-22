@@ -80,23 +80,22 @@
 	"buffers":
 	[
 		{
-			"contents": "import youtube_dl\n\nydl = youtube_dl.YoutubeDL({'outtmpl': '%(id)s%(ext)s'})\n\nwith ydl:\n    result = ydl.extract_info(\n        'http://www.youtube.com/watch?v=BaW_jenozKc',\n        download=False\n    )\n\nif 'entries' in result:\n    # Can be a playlist or a list of videos\n    video = result['entries'][0]\nelse:\n    # Just a video\n    video = result\n\nfor item in video[\"formats\"]:\n    if(item[\"ext\"] == 'm4a'):\n        print(item)\n\n\n",
 			"file": "main.py",
-			"file_size": 428,
-			"file_write_time": 131710979981998347,
 			"settings":
 			{
-				"buffer_size": 430,
+				"buffer_size": 997,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "conf.sublime-project",
+			"contents": "https://www.youtube.com/watch?v=kLpH1nSLJSs && Bad Bunny - Amorfoda\nhttps://www.youtube.com/watch?v=jjuSfhYiup8 && Wolfine - Bella\nhttps://www.youtube.com/watch?v=UceaB4D0jpo && Post Malone ft. 21 Savage - rockstar\nhttps://www.youtube.com/watch?v=4LfJnj66HVQ && Lil Pump - Gucci Gang\nhttps://www.youtube.com/watch?v=_P7S2lKif-A && MC Fioti - Bum Bum Tam Tam\nhttps://www.youtube.com/watch?v=EWcOY14GWwM && MCs Zaac & Jerry - Bumbum Granada\nhttps://www.youtube.com/watch?v=kDhptBT_-VI && Anitta, Mc Zaac, Maejor ft. Tropkillaz & DJ Yuri Martins - Vai Malandra\nhttps://www.youtube.com/watch?v=l9sqdaEpSPM && Plan B - Fanatica Sensual\nhttps://www.youtube.com/watch?v=SB8-YY2DyHI && Plan B - Mi Vecinita\nhttps://www.youtube.com/watch?v=9FWgcBfs5A0 && Plan B - Candy\n",
+			"file": "urls",
+			"file_size": 114,
+			"file_write_time": 131712377743742852,
 			"settings":
 			{
-				"buffer_size": 199,
-				"encoding": "UTF-8",
+				"buffer_size": 761,
 				"line_ending": "Unix"
 			}
 		}
@@ -148,10 +147,11 @@
 	},
 	"expanded_folders":
 	[
-		"/home/kershing/documents/projects/python/scripts/auscript"
+		"/home/kershing/documents/projects/python/scripts/vadscript"
 	],
 	"file_history":
 	[
+		"/home/kershing/documents/projects/python/scripts/vadscript/conf.sublime-project",
 		"/home/kershing/documents/projects/python/scripts/auscript/conf.sublime-project",
 		"/home/kershing/documents/projects/python/scripts/auscript/main.py",
 		"/home/kershing/.config/sublime-text-3/Packages/krunner/Default (Linux).sublime-keymap",
@@ -254,7 +254,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -263,19 +263,22 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 430,
+						"buffer_size": 997,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								429,
-								429
+								597,
+								597
 							]
 						],
 						"settings":
 						{
+							"SL.14.region_keys":
+							[
+							],
 							"SL.18.region_keys":
 							[
 								"SL.pycodestyle.Highlights.|b48b4af59768f8587aca01a1dcfd8eb43e5bea6b7a7ccf50355445d446b8e5d7|region.yellowish markup.warning.sublime_linter|32",
@@ -287,39 +290,41 @@
 							"tab_size": 4
 						},
 						"translation.x": 0.0,
-						"translation.y": 114.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "conf.sublime-project",
+					"file": "urls",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 199,
+						"buffer_size": 761,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								198,
-								198
+								761,
+								761
 							]
 						],
 						"settings":
 						{
-							"auto_complete": true,
-							"syntax": "Packages/zzz A File Icon zzz/aliases/JSON (Sublime).sublime-syntax"
+							"SL.17.region_keys":
+							[
+							],
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
